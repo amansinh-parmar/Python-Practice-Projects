@@ -1,0 +1,6 @@
+rent|rent|1000.00
+dinner|food|200.00
+metro|transportation|150.00
+CLOTHES|SHOPPING|200.00
+LUNCH|FOOD|120.00
+RECHARGE|MOBILE DATA|45.00
