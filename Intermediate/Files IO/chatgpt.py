@@ -1,10 +1,10 @@
-FILE_NAME = "expenses.txt"
+FILE_NAME = "new_expenses.txt"
 
 
 def add_expense():
     name = input("Enter expense name: ").strip().upper()
     category = input("Enter category: ").strip().upper()
-    
+
     try:
         amount = float(input("Enter amount: "))
         if amount < 0:
@@ -46,9 +46,7 @@ def view_expenses():
 
 
 def search_expenses():
-    category_to_search = input(
-        "Enter category to search: "
-    ).strip().upper()
+    category_to_search = input("Enter category to search: ").strip().upper()
 
     found = False
 
@@ -62,7 +60,7 @@ def search_expenses():
                 if len(parts) == 3:
                     name, category, amount = parts
 
-                    if category.strip().lower() == category_to_search:
+                    if category.strip().upper() == category_to_search:
                         print(
                             f"Name: {name} | "
                             f"Category: {category} | "
