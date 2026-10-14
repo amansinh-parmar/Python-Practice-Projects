@@ -1,4 +1,4 @@
-FILE_NAME = "new_expense.txt"
+FILE_NAME = "expense.txt"
 
 
 # Add Expense
