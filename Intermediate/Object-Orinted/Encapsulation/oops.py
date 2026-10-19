@@ -15,6 +15,7 @@
 # print(f"Public Password: {acc1.reset_pass()}")
 
 
+# ==>> Private Function
 class Person:
     __name = "Anonymous"
 
@@ -29,3 +30,4 @@ p1 = Person()
 # print(p1.__name)
 # print(p1.__hello())
 print(p1.welcome())
+
