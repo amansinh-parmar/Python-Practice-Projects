@@ -1,4 +1,4 @@
-# Find the number of words in a sentence 
+# Find the number of words in a sentence
 # Example: "How are you?" -> 3
 
 # USE:
