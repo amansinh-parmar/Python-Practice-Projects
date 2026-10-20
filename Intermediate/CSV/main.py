@@ -1,0 +1,23 @@
+import csv
+
+# Daily routine data
+daily_routine = [
+    ["Time", "Activity", "Description"],
+    ["6:00 AM", "Wake up", "Get out of bed"],
+    ["6:30 AM", "Exercise", "Morning workout"],
+    ["7:00 AM", "Breakfast", "Eat breakfast"],
+    ["8:00 AM", "Study", "Learn Python"],
+    ["1:00 PM", "Lunch", "Eat lunch"],
+    ["2:00 PM", "Work", "Complete daily tasks"],
+    ["6:00 PM", "Walk", "Evening walk"],
+    ["8:00 PM", "Dinner", "Eat dinner"],
+    ["9:00 PM", "Reading", "Read a book"],
+    ["10:00 PM", "Sleep", "Go to bed"],
+]
+
+# Create and write the CSV file
+with open("daily_routine.csv", "w", newline="", encoding="utf-8") as file:
+    writer = csv.writer(file)
+    writer.writerows(daily_routine)
+
+print("Daily routine CSV file created successfully!")
