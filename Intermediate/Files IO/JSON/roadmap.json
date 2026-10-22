@@ -1,0 +1,17 @@
+{
+    "Project": "Python Learning Roadmap",
+    "task": [
+        {
+            "time": "1:00 Hr",
+            "task": "JSON",
+            "days": 1,
+            "description": "Learn JSON file handling"
+        },
+        {
+            "time": "1:00 Hr",
+            "task": "NumPy",
+            "days": 2,
+            "description": "Learn numerical computing"
+        }
+    ]
+}
