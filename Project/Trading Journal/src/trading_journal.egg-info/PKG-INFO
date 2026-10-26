@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: trading-journal
+Version: 0.1.0
+Summary: Turn a CSV of completed trades into a performance report and JSON summary.
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
